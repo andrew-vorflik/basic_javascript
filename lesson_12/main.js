@@ -144,59 +144,59 @@ Cat.prototype = {
 // console.log("mariya.location :", mariya.location);
 // mariya.location = "Kharkiv";
 
-class Animal {
-  constructor(type) {
-    this.type = type;
-  }
+// class Animal {
+//   constructor(type) {
+//     this.type = type;
+//   }
 
-  run() {
-    console.log("Я біжу");
-  }
-  sleep() {
-    console.log("Я сплю");
-  }
-  getType() {
-    console.log(`${this.type}`);
-  }
-}
+//   run() {
+//     console.log("Я біжу");
+//   }
+//   sleep() {
+//     console.log("Я сплю");
+//   }
+//   getType() {
+//     console.log(`${this.type}`);
+//   }
+// }
 
-class Cat extends Animal {
-  constructor(type, name) {
-    super(type);
-    this.name = name;
-  }
+// class Cat extends Animal {
+//   constructor(type, name) {
+//     super(type);
+//     this.name = name;
+//   }
 
-  // constructor(...args) {
-  //   super(...args);
-  // }
+//   // constructor(...args) {
+//   //   super(...args);
+//   // }
 
-  play() {
-    console.log("Я граю");
-  }
+//   play() {
+//     console.log("Я граю");
+//   }
 
-  eat() {
-    console.log("Я їм");
-    // super.sleep();
-  }
+//   eat() {
+//     console.log("Я їм");
+//     // super.sleep();
+//   }
 
-  sleep() {
-    //  [[Homobject]]
-    super.sleep();
-    console.log("І храплю");
-  }
-}
+//   sleep() {
+//     //  [[Homobject]]
+//     super.sleep();
+//     console.log("І храплю");
+//   }
+// }
 
-class Stepan extends Cat {
-  constructor(type, name) {
-    super(type);
-    this.name = name;
-  }
+// class Stepan extends Cat {
+//   constructor(type, name) {
+//     super(type);
+//     this.name = name;
+//   }
 
-  sleep() {
-    super.sleep();
-  }
-}
-const cat = new Cat("Савець");
+//   sleep() {
+//     super.sleep();
+//   }
+// }
+// const cat = new Cat("Савець");
 
 // cat.play();
 // cat.run();
