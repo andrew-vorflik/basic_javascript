@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .post {
+        list-style: none;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="display: none" class="loading">Loading</h2>
+    <h2 style="display: none; color: red" class="error">
+      Error: <span></span>
+    </h2>
+    <ul></ul>
+    <form action="">
+      <label>
+        Title:
+        <input type="text" class="title" />
+      </label>
+      <label>
+        Body:
+        <input type="text" class="body" />
+      </label>
+      <button class="create-btn">Create</button>
+    </form>
+    <ul class="posts"></ul>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
